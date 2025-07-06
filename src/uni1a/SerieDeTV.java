@@ -19,6 +19,14 @@ public class SerieDeTV extends ContenidoAudiovisual {
     public void setTemporadas(int temporadas) {
         this.temporadas = temporadas;
     }
+
+    private Temporada[] temporadasLista;
+
+    public void setTemporadasLista(Temporada[] temporadasLista) {
+        this.temporadasLista = temporadasLista;
+    }
+
+
     
     @Override
     public void mostrarDetalles() {
@@ -28,6 +36,13 @@ public class SerieDeTV extends ContenidoAudiovisual {
         System.out.println("Duración en minutos: " + getDuracionEnMinutos());
         System.out.println("Género: " + getGenero());
         System.out.println("Temporadas: " + this.temporadas);
+        System.out.println();
+
+        if (temporadasLista != null) {
+            for (Temporada t : temporadasLista) {
+                t.mostrarInfo();
+            }
+        }
         System.out.println();
     }
 }

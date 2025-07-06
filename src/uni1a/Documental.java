@@ -19,6 +19,12 @@ public class Documental extends ContenidoAudiovisual {
     public void setTema(String tema) {
         this.tema = tema;
     }
+
+    private Investigador investigador;
+
+    public void setInvestigador(Investigador investigador) {
+        this.investigador = investigador;
+    }
     
     @Override
     public void mostrarDetalles() {
@@ -28,6 +34,11 @@ public class Documental extends ContenidoAudiovisual {
         System.out.println("Duración en minutos: " + getDuracionEnMinutos());
         System.out.println("Género: " + getGenero());
         System.out.println("Tema: " + this.tema);
+        System.out.println();
+
+        if (investigador != null) {
+            investigador.mostrarInfo();
+        }
         System.out.println();
     }
 }
