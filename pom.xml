@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Versión del modelo de POM, siempre 4.0.0 -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Coordenadas únicas de tu proyecto -->
+    <groupId>com.primerrepo</groupId> 
+    <artifactId>primer-repositorio-poo</artifactId> 
+    <version>1.0-SNAPSHOT</version> <!-- La versión de tu proyecto -->
+
+    <!-- Propiedades generales del proyecto -->
+    <properties>
+        <!-- Asegura que Maven use codificación de caracteres UTF-8 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Define la versión de Java que usará el compilador -->
+        <maven.compiler.source>24</maven.compiler.source>
+        <maven.compiler.target>24</maven.compiler.target>
+    </properties>
+
+    <!-- Aquí se declaran todas las librerías externas (dependencias) -->
+    <dependencies>
+
+        <!-- Dependencia para JUnit 5 (Jupiter) -->
+        <!-- Esto permite escribir las pruebas con @Test, assertEquals, etc. -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.2</version> <!-- Versión estable y reciente -->
+            <scope>test</scope> <!-- 'test' significa que esta librería solo se usa para las pruebas -->
+        </dependency>
+
+        <!-- Motor de ejecución para las pruebas de JUnit 5 -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!-- Configuración del proceso de construcción (build) -->
+    <build>
+        <plugins>
+            <!-- Plugin para asegurar que se usa la versión correcta de Java para compilar -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>24</source>
+                    <target>24</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

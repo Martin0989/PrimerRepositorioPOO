@@ -1,0 +1,9 @@
+TIPO,ID,TITULO,DURACION,GENERO,EXTRA_1,EXTRA_2,EXTRA_3,EXTRA_4
+PELICULA,1,Inception,148,Ciencia Ficción,Warner Bros.,Leonardo DiCaprio,48,EEUU
+DOCUMENTAL,2,Cosmos: A Spacetime Odyssey,44,Ciencia,Astronomía,Neil deGrasse Tyson,Astrofísica
+SERIE,3,Game of Thrones,60,Fantasía,8,1:10;2:10;3:10;4:10;5:10;6:10;7:7;8:6
+ANIME,4,Attack on Titan,24,Acción,Japón,3D
+REALITY,5,Survivor,42,Aventura,Jeff Probst,18
+PELICULA,6,The Martian,144,Ciencia Ficción,20th Century Fox,N/A,0,N/A
+DOCUMENTAL,7,Our Planet,50,Naturaleza,Vida Salvaje,David Attenborough,Naturalista
+ANIME,8,Spirited Away,125,Fantasía,Japón,2D

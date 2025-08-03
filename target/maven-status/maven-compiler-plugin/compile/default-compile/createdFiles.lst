@@ -1,0 +1,14 @@
+uni1a\Actor.class
+uni1a\RealityShow.class
+controller\ContenidoController.class
+uni1a\Anime.class
+uni1a\Investigador.class
+uni1a\Pelicula.class
+poo\Main.class
+service\ContenidoService.class
+uni1a\SerieDeTV.class
+service\IContenidoService.class
+uni1a\Temporada.class
+view\ContenidoView.class
+uni1a\Documental.class
+uni1a\ContenidoAudiovisual.class

@@ -1,0 +1,4 @@
+TIPO,ID,TITULO,DURACION,GENERO,EXTRA_1,EXTRA_2,EXTRA_3,EXTRA_4
+PELICULA,1,Pulp Fiction,154,Crimen,Miramax,John Travolta,69,EEUU
+PELICULA,2,The Godfather,175,Crimen,Paramount Pictures,Marlon Brando,80,EEUU
+PELICULA,3,Forrest Gump,142,Drama,Paramount Pictures,Tom Hanks,66,EEUU

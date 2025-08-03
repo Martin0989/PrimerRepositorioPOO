@@ -1,0 +1,5 @@
+TIPO,ID,TITULO,DURACION,GENERO,EXTRA_1,EXTRA_2,EXTRA_3,EXTRA_4
+SERIE,1,Breaking Bad,49,Drama,5,1:7;2:13;3:13;4:13;5:16
+SERIE,2,The Office,22,Comedia,9,1:6;2:22;3:23;4:14;5:26;6:24;7:24;8:24;9:23
+ANIME,3,Naruto,23,Aventura,Japón,2D
+ANIME,4,Cowboy Bebop,24,Ciencia Ficción,Japón,2D
